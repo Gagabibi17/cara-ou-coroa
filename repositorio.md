@@ -1,6 +1,7 @@
 # Cara ou Coroa
-## Objetivos
-
+## Objetivo
+criar um site dinâmico com a proposta, de girar uma moeda com dois lados (cara ou coroa)
+que pode ser usado no cotidiano.
 
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
@@ -8,10 +9,8 @@
 - Frontend: HTML5, PHP, CSS, Tailwind CSS
 
 #### Regras de negócio (CORE)
-Tratar senhas de usuários com hash bcrypt
-O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
-qualquer usuário, para auditorias futuras.
-
+- sem usuário e senha para entrar no site
+- no tela inicial do site, vai ter um botão grande e chamativo, escrito girar, e ao clicar nele,  moeda vai ser lançada, mostrando o resultado
 
 ##### Regras Globais
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
